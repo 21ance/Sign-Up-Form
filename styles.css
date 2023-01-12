@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('font/Norse-Bold.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.splash {
+    background-image: url("images/splash.jpg");
+    background-size: cover;
+    width: max(500px, 40vw);
+    position: relative;
+}
+
+.splash span {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.splash-text {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+}
+
+.splash-text img {
+    height: 5rem;
+    width: 5rem;
+}
+
+h1 {
+    font-family: Norse;
+    font-size: clamp(0%, 5rem, 15rem);
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1 p {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.section1,
+.section2,
+.section3 {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.section2 {
+    background-color: white;
+}
+
+.section2 div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section2 label {
+    margin: 10px 0px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.btnRegister {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.btnRegister:active {
+    background-color: black;
+}
+
+.section3 p {
+    margin-top: 20px;
+}
+
+.section3 a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+form input {
+    width: 250px;
+}
