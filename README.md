@@ -11,6 +11,6 @@ Desktop
 ![enter image description here](https://snipboard.io/BlJi7f.jpg)
 
 Mobile
-![enter image description here](https://snipboard.io/cFMmBx.jpg =350x)
+<img width="350px" alt="mobile screenshot" src="https://snipboard.io/cFMmBx.jpg">
 
 [Live Demo](https://21ance.github.io/Sign-Up-Form/)
