@@ -10,7 +10,7 @@ You can see some screenshots and link to the live site!
 Desktop
 ![enter image description here](https://snipboard.io/BlJi7f.jpg)
 
-Mobile
+Mobile <br>
 <img width="350px" alt="mobile screenshot" src="https://snipboard.io/cFMmBx.jpg">
 
 [Live Demo](https://21ance.github.io/Sign-Up-Form/)
